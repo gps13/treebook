@@ -2,7 +2,10 @@
 
 <p>
   <b>Name:</b>
-  <%= @status.name %>
+  	<!-- IT WAS LIKE THIS -->
+	<!-- @status.user.first_name @status.user.last_name -->
+	<!-- and I USED A method and made it: -->
+	<%= @status.user.full_name %>
 </p>
 
 <p>
